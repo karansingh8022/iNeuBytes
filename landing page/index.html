@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://kit.fontawesome.com/86d6d08a86.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/projects/landing page/indexcss.css">
+</head>
+ 
+<body>
+    <main id="header">
+        <header id="nav-bar">
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Home</a>
+                <a href="#product">Product</a>
+                <a href="#benefits">Benefits</a>
+                <a href="#testimonial">Testimonial</a>
+                <a href="#contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </header>
+
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Digital Marketing</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus eligendi voluptatem perspiciatis
+                    rem et? Deserunt exercitationem qui ullam earum error fugiat iure beatae pariatur quaerat ipsam fuga
+                    optio aliquam asperiores eum vero, maxime nam iusto, rerum nihil itaque odit officia.</p>
+                <a href="#contact" class="cta-button">Get Started</a>
+            </div>
+        </section>
+    </main>
+
+    <section id="info">
+        <div id="product">
+            <h1>Product</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam error ea voluptatibus reprehenderit, sint,
+                accusantium quia, mollitia doloremque magni dolorum nam delectus ex assumenda. Quam nemo similique
+                labore minima officiis.</p>
+        </div>
+        <div id="benefits">
+            <h1>Benefits</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis perspiciatis vitae doloribus, ducimus
+                quod, voluptatum quibusdam qui accusantium consectetur blanditiis sunt dolorum exercitationem ad natus
+                cupiditate magni porro? Suscipit, blanditiis!</p>
+        </div>
+        <div id="testimonial">
+            <h1>Testimonial</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore laboriosam ut beatae accusamus fugit
+                similique, saepe eligendi exercitationem commodi alias ab quaerat quos error velit blanditiis eius
+                minima autem. Dolorum.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>contact</h1>
+        <div>
+            <div id="contact-form">
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                    <input type="email" name="email-id" id="email-id" placeholder="Your Email" required>
+                    <input type="text" name="message" id="message" placeholder="Message">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div id="contact-details">
+
+                <h2>get in touch</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae corrupti commodi dicta
+                    officiis distinctio inventore reiciendis, tenetur ullam porro id neque, repellendus consequuntur
+                    tempora ratione cupiditate deleniti mollitia ad omnis.</p>
+
+
+                <h2>my address</h2>
+                <ul>
+                    <li id="location">Delhi, India</li>
+                    <li id="mobile-no">xxxxxxxxxxx</li>
+                    <li id="email-id">xxxxxx@gmail.com</li>
+                </ul>
+
+            </div>
+        </div>
+        <section id="social-handles">
+            <ul>
+                <li><img src="/html/images/linkedin black fill.png" alt=""></li>
+                <li><img src="/html/images/facebook black fill.png" alt=""></li>
+                <li><img src="/html/images/email black fill.png" alt=""></li>
+                <li><img src="/html/images/twitter black fill.png" alt=""></li>
+                <li><img src="/html/images/whatsapp black fill.png" alt=""></li>
+            </ul>
+        </section>
+    </section>
+
+
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
